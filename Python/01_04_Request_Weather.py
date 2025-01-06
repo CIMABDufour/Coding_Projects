@@ -6,7 +6,7 @@ import requests
 
 lat = 46.813877
 long = -71.207977
-api_key = '8c4f1eb8962fa1c5fd011099337782db'
+api_key = '8c4f1eb8962fa1c5fd011099337782db' #this api key isn't available.
 city = input('Location name ? : ')
 
 # url = f'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={long}&appid={api_key}'
