@@ -1,3 +1,7 @@
+# Beginner Project
+# Get a joke from API
+# Build a simple program that fetches jokes.
+
 import requests
 
 
