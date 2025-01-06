@@ -1,5 +1,8 @@
-import requests
+# Beginner Project
+# Get multiple currency from a request.
+# Build a simple program that fetches and displays the current currency value and others.
 
+import requests
 
 def convert_currency(curr_type, api_k):
     try:
