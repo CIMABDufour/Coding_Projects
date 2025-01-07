@@ -1,5 +1,5 @@
 # Project Difficulty : Medium
-# Personnal Finance Manager
+# Personal Finance Manager
 # This file execute the main function
 
 
