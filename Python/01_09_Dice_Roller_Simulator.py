@@ -6,27 +6,29 @@ import random
 import time
 
 
-class Dice :
-    def __init__(self, side, rolled) :
+class Dice:
+    def __init__(self, side, rolled):
         self.side = side
         self.rolled = rolled
 
-    def roll_dice(self) :
+    def roll_dice(self):
+        print('the dice got yeeted')
+        count = 3
+        while count > 0:
+            print(count)
+            time.sleep(1)
+            count -= 1
+        num_list = range(1, self.side + 1)
+        get_num = random.choice(num_list)
         self.rolled = True
-        return self
+        return get_num
 
-    def dice_side(self) :
-        user_input = input('how many side does your dice have ? : ')
-        self.side = int(user_input)
-        return self
-
-    def is_dice_rolled(self) :
+    def is_dice_rolled(self):
         return self.rolled
 
-    def how_many_side(self) :
+    def how_many_side(self):
         return self.side
 
 
 new_dice = Dice(6, False)
-new_dice.roll_dice()
-print(new_dice.how_many_side())
+print(f'the dice landed on a : {new_dice.roll_dice()}')
