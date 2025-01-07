@@ -2,7 +2,8 @@
 # Basic Contact Book.
 # Add, Search, Delete or view all contact available
 
-book_contact = []
+book_contact = [] # Big ... Avoid Global Variables big 
+# Instead of a global book_contact, encapsulate it inside a class or pass it as an argument to functions.
 
 
 class Contact:
