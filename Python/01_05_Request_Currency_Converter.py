@@ -14,7 +14,7 @@ def convert_currency(curr_type, api_k):
         return error_message
 
 
-api_key = '7d888357b88491bc40d23740'
+api_key = '7d888357b88491bc40d23740' # This API Key isnt available now
 
 currency_type = ['USD', 'CAD', 'EUR', 'JPY', 'MXN']
 currency_input = input(f'Which currency, {currency_type}, you want to convert ? : ')
